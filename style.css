@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E9E9E9;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 3% auto;
+  height: 600px;
+}
+
+.title {
+  margin-top: 15%;
+  color: #1E1E1E;
+  align-self: center;
+  flex: 3;
+  text-align: center;
+}
+
+.title>h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 8em;
+  margin-bottom: 1%;
+}
+
+.title>h3 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 2.5em;
+}
+
+.highlight {
+  font-style: italic;
+  color: #F05D5E;
+}
+
+.ig {
+  text-decoration: underline;
+  text-decoration-color: #F05D5E;
+  color: inherit;
+}
+
+.ul {
+  text-decoration: underline;
+  text-decoration-color: #F05D5E;
+  color: inherit;
+}
+
+.ig:hover {
+  font-style: italic;
+  text-decoration: none;
+  color: #F05D5E;
+}
+
+.nav {
+  width: 300px;
+  height: 300px;
+  flex: initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav>a {
+  font-family: 'Slabo 27px', serif;
+  text-decoration: none;
+  font-size: 2em;
+  color: #1E1E1E;
+  margin: 2%;
+}
+
+.nav>a:hover {
+  font-style: bold;
+  font-size: 3.3em;
+  text-decoration: underline;
+  text-decoration-color: #F05D5E
+}
+
+.logo {
+  width: 200px;
+  height: 220px;
+  margin: 40px 50px;
+  flex: initial;
+}
